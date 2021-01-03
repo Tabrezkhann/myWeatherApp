@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Weather App By Tabrez</title>
+</head>
+<body>
+        <div class="app-main" id="app-main">
+            <div class="tog">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="lable">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+            <div class="searchInputBox">
+                <input type="text" id="input-box" class="input-box" placeholder="Enter City Name..." autocomplete="off">
+            </div>
+            <div class="weather-body" id="weather-body">
+                <div class="location-details">
+                    <div class="city" id="city">Lucknow, IN</div>
+                    <div class="date" id="date">83 dec (Mon), 202</div>
+                </div>
+                <div class="weather-status">
+                    <div id="icon"><i class="far fa-sun" style="color: #eccc68;"></i></div>
+                    <div class="temp" id="temp">34&deg;C</div>
+                    <div class="min-max" id="min-max">32&deg;C (min) / 14&deg;C (max)</div>
+                    <div class="weather" id="weather">Clear</div>
+                    <div class="img"></div>
+                </div>
+    
+            </div>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
